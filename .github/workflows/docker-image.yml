@@ -28,4 +28,4 @@ jobs:
         docker build -t gamy1988/docker-graphql:0.0.2 .
     - name: Push Docker image 
       run: | 
-        docker push gamy1988/docker-graphql:0.0.2 .
+        docker push gamy1988/docker-graphql:0.0.2
